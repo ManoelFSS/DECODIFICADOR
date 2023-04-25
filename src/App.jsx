@@ -142,11 +142,7 @@ for (const key in decryptionMap) {
             </section_Right>
         </Section>
         <Footer>
-            <ul>
-              <li>link</li>
-              <li>git</li>
-            </ul>
-            <p> © Manoel Fernando de Souza Silva</p>
+            <p> © Alura + Oracle, projeto feito por: Manoel Fernando de Souza Silva</p>
         </Footer>
       </>
     )
