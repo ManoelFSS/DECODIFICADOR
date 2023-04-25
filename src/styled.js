@@ -30,21 +30,18 @@ export const Section = styled.section`
     div{
 
         height: 56vh;
+        
         h3{
-            margin-left:22px ;
-            color: red;
+            margin-left:30px ;
+            color: red
         }
 
         textarea{
            font-size: 18px;
            border: none;
-           position: relative;
-           padding-top: 10px;
+           padding: 10px;
           
         }
-
-     
-     
 
         textarea:focus {
             outline: none;
