@@ -117,7 +117,7 @@ for (const key in decryptionMap) {
                 </areaTitle>
                 <div>
                   <h3>Somente Letras Minúsculas</h3>
-                  <textarea value={valueInpt} cols="72" rows="20" placeholder="Digite seu texto " onChange={(e)=>setValueInput(e.target.value)}>
+                  <textarea value={valueInpt} cols="72" rows="10" placeholder="Digite seu texto " onChange={(e)=>setValueInput(e.target.value)}>
 
                   </textarea>
                 </div> 
