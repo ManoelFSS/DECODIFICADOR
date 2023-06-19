@@ -2,8 +2,9 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
     display: flex;
-    height: 95vh;
-
+    width: 100vw;
+    height: calc(100vh - 60px);
+    padding: 10px;
    
 
  
@@ -29,7 +30,7 @@ export const Section = styled.section`
 
     div{
 
-        height: 56vh;
+     
         
         h3{
             margin-left:30px ;
@@ -61,7 +62,7 @@ export const Section = styled.section`
 
         display: flex;
         align-items: center;
-        height: 20vh;
+        height:100px;
         gap: 50px;
 
         button:nth-child(1) {
@@ -134,7 +135,6 @@ export const  Textcripto = styled.div`
         flex-direction: column;
         align-items: center;
         overflow: auto;
-        height: 73vh;
         width: 100%;
   
     }
@@ -176,7 +176,6 @@ export const  Textcripto = styled.div`
 export const Div = styled.div`
 
    display: ${props => props.section };
-   height: 15vh !important;
    flex-direction: column;
    align-items: center;
    position: absolute;
