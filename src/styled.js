@@ -2,9 +2,9 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
     display: flex;
-    height: 100vh;
+    height:70vh;
     align-items: center;
-    border: solid red 3px;
+   
    
 
  
@@ -95,7 +95,7 @@ export const Section = styled.section`
 
     section_Right{
       display:flex;
-      height: 100vh;
+      height: 70vh;
       justify-content: center;
       align-items: center;
        width: 420px;
