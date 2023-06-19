@@ -2,22 +2,17 @@ import styled from 'styled-components'
 
 export const Section = styled.section`
     display: flex;
+    height: 100vh;
     align-items: center;
-    width: 100vw;
-    height: calc(100vh - 60px);
-    padding: 10px;
+    border: solid red 3px;
    
 
  
     section_Left{
-
+        flex: 1;
         display: flex;
-        width: 100%;
-        height:800px;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
-  
     }
 
     areaTitle{
@@ -46,7 +41,6 @@ export const Section = styled.section`
            font-size: 18px;
            border: none;
            padding: 10px;
-     
           
         }
 
@@ -101,11 +95,11 @@ export const Section = styled.section`
 
     section_Right{
       display:flex;
-      height: 800px;
+      height: 100vh;
       justify-content: center;
       align-items: center;
-      width: 420px;
-    
+       width: 420px;
+     
 
        section{
             display:flex;
@@ -173,7 +167,7 @@ export const  Textcripto = styled.div`
             height: 60px;
             border-radius: 20px;
             transition: all 0.3s;
-            border: solid 2px #0A3899;
+            border: solid 2px#0A3899;
             &:hover{
                transform: scale(1.1);
             }
@@ -183,6 +177,7 @@ export const  Textcripto = styled.div`
 export const Div = styled.div`
 
    display: ${props => props.section };
+   height: 15vh !important;
    flex-direction: column;
    align-items: center;
    position: absolute;
